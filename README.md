@@ -132,6 +132,37 @@ Ce serveur est conçu à des fins éducatives et présente plusieurs limitations
 
 Ce projet est libre d'utilisation à des fins éducatives.
 
+## Développement avec Claude Code
+
+Ce projet a été développé en collaboration avec **Claude Code**, l'interface en ligne de commande officielle d'Anthropic pour Claude.
+
+### À propos de Claude Code
+
+Claude Code est un outil CLI qui permet d'interagir avec Claude directement depuis votre terminal ou IDE. Il offre :
+
+- **Assistance au développement** : Aide à écrire, déboguer et refactoriser du code
+- **Exploration de codebase** : Comprend et navigue dans les projets existants
+- **Automatisation des tâches** : Gestion Git, création de fichiers, exécution de commandes
+- **Contexte complet** : Accès à l'ensemble du projet pour des suggestions pertinentes
+
+### Fonctionnalités utilisées dans ce projet
+
+- Génération du serveur HTTP de base
+- Création de la page HTML avec style CSS
+- Configuration Git et gestion des commits
+- Rédaction de la documentation
+- Conseil sur les bonnes pratiques Rust
+
+### Configuration
+
+Le fichier `.claude/settings.local.json` (ignoré par git) contient les permissions locales pour l'exécution automatique de certaines commandes.
+
+### En savoir plus
+
+- Site officiel : https://claude.com/claude-code
+- Documentation : https://docs.anthropic.com/claude/docs
+- GitHub : https://github.com/anthropics/claude-code
+
 ## Auteur
 
-Créé avec Rust et la bibliothèque standard.
+Créé avec Rust et la bibliothèque standard, en collaboration avec Claude Code (Claude Sonnet 4.5).
